@@ -1,9 +1,10 @@
-body{
+body /* Tag selector */
+{
     background-color: #A5DEE5;
 }
-.table-menu{
-    width:100%; 
-    text-align: center;
+.table-menu{ /* class selector */
+    width:100%; /* ความกว้าง */
+    text-align: center; /* ตำแหน่ง */
     background-color: #FEFDCA;
 }
 h1{
@@ -18,15 +19,15 @@ h4{
 }
 h5{ 
     text-align: center; 
-    font-family: Aclonica; 
+    font-family: Aclonica;
     font-weight: normal;
 }
-.table-content{
-    margin-left: auto; 
+.table-content{ 
+    margin-left: auto; /* กำหนดช่องไฟ */
     margin-right: auto;
     background-color: #FEFDCA;
 }
-.ul-circle{
+.ul-circle{ /* ลักษณะหัวข้อย่อย */
     list-style-type:circle;
     background-color: #FFCFDF;
 } 
